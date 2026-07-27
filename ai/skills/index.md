@@ -34,3 +34,4 @@
 - aidd-ui - Design beautiful and friendly user interfaces and experiences. Use when building UI components, styling, animations, accessibility, responsive design, or working with design systems.
 - aidd-upskill - Guide for crafting high-quality AIDD skills. Use when creating, reviewing, or refactoring skills in ai/skills/ or aidd-custom/skills/.
 - aidd-user-testing - Generate human and AI agent test scripts from user journey specifications. Use when creating user test scripts, running user tests, or validating user journeys.
+- aidd-write - Top tier author skill for delivering essential truths with the persuasive power to inspire positive change. Use when writing, reviewing, editing, or scoring any content.
