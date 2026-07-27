@@ -7,9 +7,15 @@ author: ParallelDrive
 
 # APM-compatible targets for the framework's agent primitives.
 targets:
-  - copilot
-  - claude
-  - cursor
+  copilot:
+    agents: .github/agents
+    skills: .github/skills
+  claude:
+    agents: .agents
+    skills: .agents/skills
+  cursor:
+    agents: .agents
+    skills: .agents/skills
 
 skills:
   - name: aidd-agent-orchestrator
