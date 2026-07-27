@@ -2,6 +2,15 @@ name: aidd
 version: 3.1.0
 description: The standard framework for AI Driven Development.
 repository: https://github.com/paralleldrive/aidd
+license: MIT
+author: ParallelDrive
+
+# APM-compatible targets for the framework's agent primitives.
+targets:
+  - copilot
+  - claude
+  - cursor
+
 skills:
   - name: aidd-agent-orchestrator
     file: ai/skills/aidd-agent-orchestrator/SKILL.md
