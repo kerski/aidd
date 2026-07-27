@@ -11,5 +11,109 @@ targets:
   - claude
   - cursor
 
-# Include the tracked repository contents in the packaged artifact.
-includes: auto
+skills:
+  - name: aidd-agent-orchestrator
+    file: ai/skills/aidd-agent-orchestrator/SKILL.md
+    description: Agent orchestrator that coordinates specialized agents for software development tasks.
+  - name: aidd-autodux
+    file: ai/skills/aidd-autodux/SKILL.md
+    description: Create and transpile Autodux Redux state management dux objects.
+  - name: aidd-churn
+    file: ai/skills/aidd-churn/SKILL.md
+    description: Hotspot analysis to identify highest-risk code to review or refactor.
+  - name: aidd-ecs
+    file: ai/skills/aidd-ecs/SKILL.md
+    description: Enforces Adobe Data ECS best practices for components, resources, and services.
+  - name: aidd-error-causes
+    file: ai/skills/aidd-error-causes/SKILL.md
+    description: Structured error handling with the error-causes library.
+  - name: aidd-fix
+    file: ai/skills/aidd-fix/SKILL.md
+    description: Fix bugs and implement review feedback following a disciplined TDD process.
+  - name: aidd-javascript
+    file: ai/skills/aidd-javascript/SKILL.md
+    description: JavaScript and TypeScript best practices and guidance.
+  - name: aidd-javascript-io-effects
+    file: ai/skills/aidd-javascript-io-effects/SKILL.md
+    description: Isolate network I/O and side effects using the saga pattern.
+  - name: aidd-jwt-security
+    file: ai/skills/aidd-jwt-security/SKILL.md
+    description: JWT security review patterns for authentication and token handling.
+  - name: aidd-layout
+    file: ai/skills/aidd-layout/SKILL.md
+    description: UI component layout and composition best practices.
+  - name: aidd-lit
+    file: ai/skills/aidd-lit/SKILL.md
+    description: Lit element authoring best practices and reactive binding patterns.
+  - name: aidd-log
+    file: ai/skills/aidd-log/SKILL.md
+    description: Document completed epics in a structured changelog.
+  - name: aidd-namespace
+    file: ai/skills/aidd-namespace/SKILL.md
+    description: Modular, discoverable, tree-shakeable type and constant authoring.
+  - name: aidd-observe
+    file: ai/skills/aidd-observe/SKILL.md
+    description: Observe pattern best practices for reactive data flow.
+  - name: aidd-parallel
+    file: ai/skills/aidd-parallel/SKILL.md
+    description: Generate and delegate fix tasks to parallel sub-agents.
+  - name: aidd-pipeline
+    file: ai/skills/aidd-pipeline/SKILL.md
+    description: Run a sequential pipeline of tasks defined in a markdown file.
+  - name: aidd-please
+    file: ai/skills/aidd-please/SKILL.md
+    description: General AI assistant for software development projects.
+  - name: aidd-pr
+    file: ai/skills/aidd-pr/SKILL.md
+    description: Triage PR review comments and delegate fixes.
+  - name: aidd-product-manager
+    file: ai/skills/aidd-product-manager/SKILL.md
+    description: Plan features, user stories, user journeys, and conduct product discovery.
+  - name: aidd-react
+    file: ai/skills/aidd-react/SKILL.md
+    description: React component authoring best practices.
+  - name: aidd-requirements
+    file: ai/skills/aidd-requirements/SKILL.md
+    description: Write functional requirements for user stories.
+  - name: aidd-review
+    file: ai/skills/aidd-review/SKILL.md
+    description: Conduct thorough code reviews for quality, security, and standards.
+  - name: aidd-riteway-ai
+    file: ai/skills/aidd-riteway-ai/SKILL.md
+    description: Write multi-step riteway ai prompt evals involving tool calls.
+  - name: aidd-rtc
+    file: ai/skills/aidd-rtc/SKILL.md
+    description: Reflective Thought Composition for complex decisions and design evaluation.
+  - name: aidd-service
+    file: ai/skills/aidd-service/SKILL.md
+    description: Asynchronous data service authoring best practices.
+  - name: aidd-stack
+    file: ai/skills/aidd-stack/SKILL.md
+    description: Tech stack guidance for NextJS, React/Redux, and Shadcn UI features.
+  - name: aidd-structure
+    file: ai/skills/aidd-structure/SKILL.md
+    description: Source code structuring and interdependency best practices.
+  - name: aidd-sudolang-syntax
+    file: ai/skills/aidd-sudolang-syntax/SKILL.md
+    description: SudoLang syntax cheat sheet for pseudocode, interfaces, and constraints.
+  - name: aidd-task-creator
+    file: ai/skills/aidd-task-creator/SKILL.md
+    description: Systematic task and epic planning and execution.
+  - name: aidd-tdd
+    file: ai/skills/aidd-tdd/SKILL.md
+    description: Systematic test-driven development with proper test isolation.
+  - name: aidd-timing-safe-compare
+    file: ai/skills/aidd-timing-safe-compare/SKILL.md
+    description: Timing-safe secret comparison using SHA3-256 hashing.
+  - name: aidd-ui
+    file: ai/skills/aidd-ui/SKILL.md
+    description: Design beautiful and friendly user interfaces and experiences.
+  - name: aidd-upskill
+    file: ai/skills/aidd-upskill/SKILL.md
+    description: Guide for crafting high-quality AIDD skills.
+  - name: aidd-user-testing
+    file: ai/skills/aidd-user-testing/SKILL.md
+    description: Generate human and AI agent test scripts from user journeys.
+  - name: aidd-write
+    file: ai/skills/aidd-write/SKILL.md
+    description: Top tier author skill for delivering essential truths with persuasive power.
